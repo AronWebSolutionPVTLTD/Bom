@@ -5,9 +5,9 @@ import logo from '../Images/logo.png'
 function Header() {
   return (
     <header>
-        <div className='max-w-1400 mx-auto px-5 xl:px-0'>
-            <div className='w-3/12'>
-                <Image imageName={logo} alt={logo} className=""></Image>
+        <div className='text-black max-w-1400 mx-auto px-5 xl:px-0'>
+            <div className='header-logo-part w-3/12'>
+                <Image imageName={logo} alt={logo} className="logo-image"></Image>
             </div>
             <div className='w-9/12'>
 
