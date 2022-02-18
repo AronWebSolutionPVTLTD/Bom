@@ -1,7 +1,10 @@
 body{
   @apply bg-bodyBg bg-no-repeat bg-cover text-white font-rubik;
 }
-
+/*====Vision==========*/
+.btn-primary{
+  @apply bg-gradient-to-r from-grLeft to-grRight text-25 px-8 py-4 text-black font-bold font-roboto inline-block mt-4 rounded-10;
+}
 
 /* ankit css */
 body{
