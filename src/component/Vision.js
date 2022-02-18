@@ -4,8 +4,8 @@ import vision from '../Images/vision.png'
 export default function Vision(){
     return(
         <>
-            <div className='visionBox bg-visionBg'>
-                <div className='max-w-1400 mx-auto grid md:grid-cols-2 grid-cols-1 gap-3 items-center text-white'>
+            <div className='visionBox bg-visionBg py-28 bg-contain bg-no-repeat'>
+                <div className='max-w-1400 mx-auto grid md:grid-cols-2 grid-cols-1 gap-5 items-end text-white'>
                     <div class="cols-2">
                         <Image imageName={vision} alt={vision}></Image>
                     </div>
