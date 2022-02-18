@@ -15,6 +15,12 @@ module.exports = {
         'visionBg': "url('/src/Images/vision-bg.png')",
         'rgtIcon': "url('/src/Images/rgt-icon.png')",
         'lftIcon': "url('/src/Images/lft-icon.png')",
+        'aboutBg': "url('/src/Images/about-bg.png')",
+        'featuresBg': "url('/src/Images/curve.png')",
+        'cardbg': "url('/src/Images/cardbg.png')",
+        'yellocircle': "url('/src/Images/yellocircle.png')",
+        'boomneed': "url('/src/Images/boomneed.png')",
+
       },
       borderRadius: {
         "10":"10px",
@@ -65,6 +71,7 @@ module.exports = {
         "750":"750px",
         "1000":"1000px",
         "1280":"1280px",
+        "930":"930px",
         "1400":"1400px",
         "1555":"1555px",
       },
@@ -72,7 +79,7 @@ module.exports = {
         "primary":"#FFB800",
         "blMenu":"#246BFD",
         "grLeft":"#FBDB03",
-        "grRight":"#FA9113"
+        "grRight":"#FA9113",
       },
       fontSize: {
         "12":'12px',

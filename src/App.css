@@ -12,6 +12,7 @@ body{
   @apply bg-gradient-to-r from-grLeft to-grRight text-25 px-8 py-4 text-black font-bold font-roboto inline-block mt-4 rounded-10;
 }
 .btn-size{
+/*====Gurinder==========*/
   @apply text-20 px-8 py-2;
 }
 .slickNft .card-nft {
@@ -40,6 +41,13 @@ body{
 .slickNft .slick-next {
   right: 46%;
 }
+=======
+  @apply text-20 px-8 py-2 mt-0;
+}
+=======
+.borderWhite5{
+  border-color:#ffffff6f;
+}
 /* ankit css */
 body{
   @apply box-border;
@@ -56,5 +64,22 @@ body{
 .header_button a{
   @apply px-5 py-3 bg-black text-white font-medium rounded-md inline-block	
 }
+/*====Gurinder==========*/
+
+
 /* ankit css end */
 
+
+/*===== mithu =======*/
+
+.why-choose.w-full::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -106px;
+  background-image: url('/src/Images/yellocircle.png');
+  background-size: cover;
+  height: 76px;
+  width: 76px;
+}

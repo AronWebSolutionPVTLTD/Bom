@@ -1,18 +1,18 @@
 import React from 'react'
 import Image from './Image'
-import vision from '../Images/vision.png'
-export default function Vision(){
+import about from '../Images/about.png'
+import about2 from '../Images/blockchain.png'
+export default function About(){
     return(
         <>
-
-            <div className='visionBox bg-visionBg py-36 bg-100% bg-no-repeat'>
-                <div className='max-w-1280 mx-auto flex flex-wrap items-end text-white'>
-                    <div class="md:w-7/12 w-full">
-                        <Image imageName={vision} alt={vision}></Image>
+            <div className='visionBox bg-aboutBg pt-1 pb-16 bg-cover bg-no-repeat'>
+                <div className='max-w-1400 mx-auto flex flex-wrap items-end text-white '>
+                    <div className="cols-2 w-3/5">
+                        <Image imageName={about} alt={about}></Image>
                     </div>
-                    <div class="md:w-5/12  w-full">
-                        <div className='max-w-530'>
-                            <h2 className="font-sansation text-40 leading-42 font-bold">BOM’s<br/> Grand Vision</h2>
+                    <div class="cols-2 w-2/5">
+                        <div className='max-w-500 -mt-2'>
+                            <Image imageName={about2} alt={about2}></Image>
                             <p className='text-20 leading-30 my-7'>BOM’s world-class team dreamt of an ecosystem that propels businesses forward like nothing before, while highly rewarding investors and contributors throughout the process. We’ll allow countless businesses to benefit from blockchain technology that enables leveraging stocks as a payment method, rather than opting for third-party services and paying fees. Essentially, participants will be co-owners of the ecosystem.</p>
                             <a href="" className='btn-primary'>Get Started!</a>
                         </div>

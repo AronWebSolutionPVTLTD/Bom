@@ -4,7 +4,8 @@ function Button(props) {
   return (
     <>
     <div className='header_button'>
-      <a href="">{props.ButtonTitle}</a>
+      <a className='btn-size btn-primary' href="">{props.ButtonTitle}</a>
+
     </div>
     </>
   )
