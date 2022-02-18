@@ -1,12 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './component/Header';
+import Vision from './component/Vision';
 
 function App() {
   return (
+    <>
     <div className="App " >
-    <Header></Header>
+      <Header></Header>
+      <Vision></Vision>
     </div>
+    </>
   );
 }
 
