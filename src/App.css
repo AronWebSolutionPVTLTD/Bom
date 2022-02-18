@@ -1,14 +1,53 @@
 body{
   @apply bg-bodyBg bg-no-repeat bg-cover text-white font-rubik;
 }
+.heading-primary{
+  @apply text-40 leading-42 font-sansation font-bold;
+}
+.sub-heading{
+  @apply text-20 leading-30 my-6;
+}
 /*====Vision==========*/
 .btn-primary{
   @apply bg-gradient-to-r from-grLeft to-grRight text-25 px-8 py-4 text-black font-bold font-roboto inline-block mt-4 rounded-10;
 }
 .btn-size{
+/*====Gurinder==========*/
+  @apply text-20 px-8 py-2;
+}
+.slickNft .card-nft {
+  margin: 0 25px;
+  @apply bg-black bg-opacity-70 p-10 rounded-20 relative mb-6 aspect-square flex justify-center items-center
+}
+.slickNft .card-nft:before{
+  content:'';
+  @apply border border-dashed border-grRight absolute top-20px left-20px w-99 h-99  rounded-20 -z-1
+}
+.slickNft .slick-prev,.slickNft .slick-next{
+  @apply top-auto -bottom-20 h-40 w-40;
+}
+.slickNft .slick-prev:before,.slickNft  .slick-next:before{
+  @apply text-transparent w-40 h-40 text-40 bg-contain;
+}
+.slickNft .slick-prev:before{
+  @apply bg-lftIcon
+}
+.slickNft .slick-next:before{
+  @apply bg-rgtIcon
+}
+.slickNft .slick-prev {
+  left: 46%;
+}
+.slickNft .slick-next {
+  right: 46%;
+}
+=======
   @apply text-20 px-8 py-2 mt-0;
 }
-
+=======
+.borderWhite5{
+  border-color:#ffffff6f;
+}
 /* ankit css */
 body{
   @apply box-border;
@@ -25,9 +64,9 @@ body{
 .header_button a{
   @apply px-5 py-3 bg-black text-white font-medium rounded-md inline-block	
 }
-.borderWhite5{
-  border-color:#ffffff6f;
-}
+/*====Gurinder==========*/
+
+
 /* ankit css end */
 
 
