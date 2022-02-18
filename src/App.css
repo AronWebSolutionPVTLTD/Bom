@@ -6,4 +6,13 @@ body{
 .header-logo-part img{
   @apply w-20
 }
+.header_navigation li{
+  @apply px-4
+}
+.header_button{
+  @apply px-5
+}
+.header_button a{
+  @apply px-5 py-3 bg-black text-white font-medium rounded-md inline-block	
+}
 /* ankit css end */
