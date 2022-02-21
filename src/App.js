@@ -13,6 +13,8 @@ import TokenSale from './component/TokenSale';
 import HomeSlider from './component/HomeSlider';
 import Pricing from './component/Pricing';
 import Contact from './component/Contact';
+import Timeline from './component/Timeline';
+
 // import PrivateSales from './component/PrivateSales';
 
 // >>>>>>> main
@@ -29,11 +31,11 @@ function App() {
       <Features></Features>
       <PrivateSales></PrivateSales> 
       <TokenSale></TokenSale>
+      <Timeline></Timeline>
       <Pricing></Pricing>
       <Contact></Contact>
       <Faqs></Faqs>
       <FooterBox></FooterBox>
-      
       {/* <PrivateSales></PrivateSales> */}
     </div>
     </>
