@@ -75,7 +75,7 @@ body{
   @apply flex items-center justify-center text-transparent rounded-full	border-3 border-white	opacity-100			
 }
 .main-slider-wrapper .slick-dots li.slick-active button:before{
-  @apply border-5	border-primary text-transparent bg-black
+  @apply border-5	border-primary text-transparent bg-black opacity-100	
 }
 .slide_buttons_Wrapper ul{
   @apply hidden md:flex
