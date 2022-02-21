@@ -24,6 +24,7 @@ export default function PrivateSales(){
                             <Image imageName={tokensale} alt={tokensale}></Image>
                             <h3 className='text-40 font-bold font-sansation m-0 pb-1 pt-4'>Token Sale</h3>
                             <p className='text-20 leading-30 mb-7'>BOM’s world-class team dreamt of an ecosystem that propels businesses forward like nothing before, while highly rewarding investors and contributors throughout the process. We’ll allow countless businesses to benefit from blockchain technology that enables leveraging stocks as a payment method, rather than opting for third-party services and paying fees. Essentially, participants will be co-owners of the ecosystem.</p>
+
                             <a href="" className='btn-primary'>Get Started!</a>
                         </div>
                     </div>

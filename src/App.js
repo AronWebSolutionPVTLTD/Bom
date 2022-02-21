@@ -8,8 +8,8 @@ import About from './component/About';
 import Features from './component/Features';
 import PrivateSales from './component/PrivateSales';
 import TokenSale from './component/TokenSale';
-
-
+import HomeSlider from './component/HomeSlider';
+// import PrivateSales from './component/PrivateSales';
 
 // >>>>>>> main
 function App() {
@@ -17,6 +17,7 @@ function App() {
     <>
     <div className="App " >
       <Header></Header>
+      <HomeSlider></HomeSlider>
       <Vision></Vision>
       <UniqueNFT></UniqueNFT>
       <BuyBom></BuyBom>
@@ -24,6 +25,7 @@ function App() {
       <Features></Features>
       <PrivateSales></PrivateSales> 
       <TokenSale></TokenSale>
+      {/* <PrivateSales></PrivateSales> */}
     </div>
     </>
   );
