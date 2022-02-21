@@ -62,6 +62,10 @@ body{
 .header_button a{
   @apply px-5 py-3 bg-black text-white font-medium rounded-md inline-block	
 }
+/*====Naveen==========*/
+.pricing-btn {
+  @apply mt-10
+}
 /*====Gurinder==========*/
 
 

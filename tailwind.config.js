@@ -20,6 +20,7 @@ module.exports = {
         'cardbg': "url('/src/Images/cardbg.png')",
         'yellocircle': "url('/src/Images/yellocircle.png')",
         'boomneed': "url('/src/Images/boomneed.png')",
+        'pricing': "url('/src/Images/pricingbg.png')",
 
       },
       borderRadius: {
@@ -69,6 +70,7 @@ module.exports = {
         "500":"500px",
         "560":"560px",
         "750":"750px",
+        "800":"800px",
         "1000":"1000px",
         "1280":"1280px",
         "930":"930px",
@@ -85,6 +87,7 @@ module.exports = {
         "12":'12px',
         "14":'14px',
         "16":'16px',
+        "17":'17px',
         "18":'18px',
         "20":'20px',
         "22":'22px',
@@ -93,6 +96,7 @@ module.exports = {
         "26":'26px',
         "28":'28px',
         "30":'30px',
+        "35":'35px',
         "40":'40px',
         "42":'42px',
         "44":'44px',
@@ -117,7 +121,12 @@ module.exports = {
         "46":'46px',
         "48":'48px',
         "50":'50px',
-      }
+      },
+      gap: {
+        '11': '2.75rem',
+        '12': '3rem',  
+        '16': '4rem',     
+      }    
     },
     
   },
