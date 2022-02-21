@@ -14,7 +14,7 @@ function MainSliderSlides(props) {
                     <h3 className='flex text-16 sm:text-20 items-center justify-center md:justify-start mb-2 tracking-3 text-primary'>{props.subhead} 
                         <Image imageName={LogoIcon} className="w-6 h-6 object-contain"></Image>
                     </h3>
-                    <h2 className='class="font-sansation text-27 sm:text-55 leading-tight sm:leading-52 font-bold text-center md:text-left mx-auto md:mx-0 max-w-xl mb-2'>{props.slideTitle}</h2>
+                    <h2 className='class="font-sansation text-27 sm:text-50 leading-tight sm:leading-52 font-bold text-center md:text-left mx-auto md:mx-0 max-w-xl mb-2'>{props.slideTitle}</h2>
                     <p className='text:16 sm:text-20'>{props.slideDescription}</p>
                     <div className='slide_buttons_Wrapper flex items-center justify-center md:justify-start mt-8 md:mt-16'>
                         <Button ButtonTitle="Get Started!" />
