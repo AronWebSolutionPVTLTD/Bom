@@ -5,7 +5,7 @@ export default function PrivateSales(){
     return(
         <>
             <div className='visionBox bg-aboutBg pt-1 pb-16 bg-cover bg-no-repeat'>
-                <div className='container max-w-1400 mx-auto flex flex-wrap items-end text-white '>
+                <div className='container max-w-1400 mx-auto flex flex-wrap items-end text-white'>
                     <div class="cols-2 w-1/5">
                         <div className='max-w-500 -mt-2'>
                             <Image imageName={nftsale} alt={nftsale}></Image>
