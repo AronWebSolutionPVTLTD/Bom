@@ -6,6 +6,7 @@ module.exports = {
         'sansation': ['Sansation', 'sans-serif'],
         'rubik': ['Rubik', 'sans-serif'],
         'roboto' : ['Roboto', 'sans-serif'],
+        'poppins' : ['Poppins', 'sans-serif'],
       },
       backgroundSize:{
         '100%': '100%',
@@ -20,13 +21,17 @@ module.exports = {
         'cardbg': "url('/src/Images/cardbg.png')",
         'yellocircle': "url('/src/Images/yellocircle.png')",
         'boomneed': "url('/src/Images/boomneed.png')",
+        'ftr_bg': "url('/src/Images/ftr_bg.png')",
         'pricing': "url('/src/Images/pricingbg.png')",
         'contactbg': "url('/src/Images/contactbg.png')",
-
       },
       borderRadius: {
         "10":"10px",
         "20":"20px"
+      },
+      borderWidth:{
+        "3":"3px",
+        "5":"5px",
       },
       zIndex: {
         '-1': '-1',
@@ -52,18 +57,31 @@ module.exports = {
       height: {
         "30":"30px",
         "40":"40px",
+        "50":"50px",
+        "60":"60px",
+        "70":"70px",
+        "80":"80px",
+        "90":"90px",
         '99': '99%',
         '100': '100%',
       },
       width: {
         "30":"30px",
         "40":"40px",
+        "50":"50px",
+        "60":"60px",
+        "70":"70px",
+        "80":"80px",
+        "90":"90px",
+        "300":"300px",
         '99': '99%',
         '100': '100%',
       },
       maxWidth:{
+        "300":"300px",
         "400":"400px",
         "450":"450px",
+        "480":"480px",
         "500":"500px",
         "510":"510px",
         "520":"520px",
@@ -72,7 +90,9 @@ module.exports = {
         "560":"560px",
         "750":"750px",
         "800":"800px",
+        "980":"980px",
         "1000":"1000px",
+        "1050":"1050px",
         "1280":"1280px",
         "930":"930px",
         "1400":"1400px",
@@ -83,6 +103,9 @@ module.exports = {
         "blMenu":"#246BFD",
         "grLeft":"#FBDB03",
         "grRight":"#FA9113",
+        "wTitle":"#00A9EB",
+        "grayBlack":"#222136",
+        "tokenBorder":"#573e20",
       },
       fontSize: {
         "12":'12px',
@@ -95,8 +118,10 @@ module.exports = {
         "24":'24px',
         "25":'25px',
         "26":'26px',
+        "27":'27px',
         "28":'28px',
         "30":'30px',
+        "32":'32px',
         "35":'35px',
         "40":'40px',
         "42":'42px',
@@ -104,6 +129,7 @@ module.exports = {
         "46":'46px',
         "48":'48px',
         "50":'50px',
+        "55":'55px',
       },
       lineHeight: {
         "12":'12px',
@@ -116,18 +142,27 @@ module.exports = {
         "26":'26px',
         "28":'28px',
         "30":'30px',
+        "32":'32px',
+        "34":'34px',
+        "36":'36px',
         "40":'40px',
         "42":'42px',
         "44":'44px',
         "46":'46px',
         "48":'48px',
         "50":'50px',
+        "52":'52px',
+      },
+      letterSpacing:{
+        "1":"1px",
+        "2":"2px",
+        "3":"3px"
       },
       gap: {
         '11': '2.75rem',
         '12': '3rem',  
         '16': '4rem',     
-      }    
+      }  
     },
     
   },
