@@ -6,6 +6,7 @@ module.exports = {
         'sansation': ['Sansation', 'sans-serif'],
         'rubik': ['Rubik', 'sans-serif'],
         'roboto' : ['Roboto', 'sans-serif'],
+        'poppins' : ['Poppins', 'sans-serif'],
       },
       backgroundSize:{
         '100%': '100%',
@@ -20,6 +21,7 @@ module.exports = {
         'cardbg': "url('/src/Images/cardbg.png')",
         'yellocircle': "url('/src/Images/yellocircle.png')",
         'boomneed': "url('/src/Images/boomneed.png')",
+        'ftr_bg': "url('/src/Images/ftr_bg.png')",
 
       },
       borderRadius: {
@@ -50,12 +52,22 @@ module.exports = {
       height: {
         "30":"30px",
         "40":"40px",
+        "50":"50px",
+        "60":"60px",
+        "70":"70px",
+        "80":"80px",
+        "90":"90px",
         '99': '99%',
         '100': '100%',
       },
       width: {
         "30":"30px",
         "40":"40px",
+        "50":"50px",
+        "60":"60px",
+        "70":"70px",
+        "80":"80px",
+        "90":"90px",
         '99': '99%',
         '100': '100%',
       },
@@ -80,6 +92,8 @@ module.exports = {
         "blMenu":"#246BFD",
         "grLeft":"#FBDB03",
         "grRight":"#FA9113",
+        "wTitle":"#00A9EB",
+        "grayBlack":"#222136"
       },
       fontSize: {
         "12":'12px',
@@ -111,6 +125,9 @@ module.exports = {
         "26":'26px',
         "28":'28px',
         "30":'30px',
+        "32":'32px',
+        "34":'34px',
+        "36":'36px',
         "40":'40px',
         "42":'42px',
         "44":'44px',

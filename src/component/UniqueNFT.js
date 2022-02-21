@@ -13,10 +13,8 @@ export default function UniqueNFT(){
         slidesToShow: 3,
         slidesToScroll: 3,
         centerPadding: '40px'
-      };
-      
-
-    return(
+      };      
+   return(
         <>
         <div className='uniqueNFT pb-36'>
             <div class="max-w-750 mx-auto text-center mb-16">
@@ -38,7 +36,7 @@ export default function UniqueNFT(){
                     </div>
                     <div>
                         <div class="card-nft">
-                            <img src={nft2} /> 
+                            <img src={nft2} alt="" /> 
                         </div>
                     </div>
                     <div>
