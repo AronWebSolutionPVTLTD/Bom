@@ -8,6 +8,9 @@ import About from './component/About';
 import Features from './component/Features';
 import PrivateSales from './component/PrivateSales';
 import TokenSale from './component/TokenSale';
+import SecureBlockchain from './component/SecureBlockchain';     
+import ImageWithText from './component/ImageWithText';
+import AppSection from './component/AppSection';
 
 
 
@@ -24,9 +27,12 @@ function App() {
       <Features></Features>
       <PrivateSales></PrivateSales> 
       <TokenSale></TokenSale>
+      <SecureBlockchain></SecureBlockchain>
+      <ImageWithText></ImageWithText>
+      <AppSection></AppSection>
     </div>
     </>
   );
 }
 
-export default App;
+export default App; 

@@ -20,7 +20,7 @@ module.exports = {
         'cardbg': "url('/src/Images/cardbg.png')",
         'yellocircle': "url('/src/Images/yellocircle.png')",
         'boomneed': "url('/src/Images/boomneed.png')",
-
+        'appImage': "url('/src/Images/appImageBg.png')",        
       },
       borderRadius: {
         "10":"10px",
@@ -82,6 +82,8 @@ module.exports = {
         "grLeft":"#FBDB03",
         "grRight":"#FA9113",
         "tokenBorder":"#573e20",
+        "tokenBg":"#080f1763",
+        
       },
 
       fontSize: {
@@ -97,6 +99,7 @@ module.exports = {
         "28":'28px',
         "30":'30px',
         "32":'32px',
+        "38":'38px',
         "40":'40px',
         "42":'42px',
         "44":'44px',
