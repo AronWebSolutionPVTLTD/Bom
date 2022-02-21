@@ -21,6 +21,7 @@ module.exports = {
         'yellocircle': "url('/src/Images/yellocircle.png')",
         'boomneed': "url('/src/Images/boomneed.png')",
         'pricing': "url('/src/Images/pricingbg.png')",
+        'contactbg': "url('/src/Images/contactbg.png')",
 
       },
       borderRadius: {

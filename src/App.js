@@ -7,6 +7,7 @@ import BuyBom from './component/BuyBom';
 import About from './component/About';
 import Features from './component/Features';
 import Pricing from './component/Pricing';
+import Contact from './component/Contact';
 //import PrivateSales from './component/PrivateSales';
 
 
@@ -23,6 +24,7 @@ function App() {
       <Features></Features>
       {/* <PrivateSales></PrivateSales> */}
       <Pricing></Pricing>
+      <Contact></Contact>
       
     </div>
     </>
