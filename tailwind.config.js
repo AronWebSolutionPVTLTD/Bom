@@ -22,7 +22,8 @@ module.exports = {
         'yellocircle': "url('/src/Images/yellocircle.png')",
         'boomneed': "url('/src/Images/boomneed.png')",
         'ftr_bg': "url('/src/Images/ftr_bg.png')",
-
+        'pricing': "url('/src/Images/pricingbg.png')",
+        'contactbg': "url('/src/Images/contactbg.png')",
       },
       borderRadius: {
         "10":"10px",
@@ -86,6 +87,8 @@ module.exports = {
         "500":"500px",
         "560":"560px",
         "750":"750px",
+        "800":"800px",
+        "980":"980px",
         "1000":"1000px",
         "1050":"1050px",
         "1280":"1280px",
@@ -99,7 +102,7 @@ module.exports = {
         "grLeft":"#FBDB03",
         "grRight":"#FA9113",
         "wTitle":"#00A9EB",
-        "grayBlack":"#222136"
+        "grayBlack":"#222136",
         "tokenBorder":"#573e20",
       },
       fontSize: {
@@ -117,6 +120,7 @@ module.exports = {
         "28":'28px',
         "30":'30px',
         "32":'32px',
+        "35":'35px',
         "40":'40px',
         "42":'42px',
         "44":'44px',
@@ -151,7 +155,12 @@ module.exports = {
         "1":"1px",
         "2":"2px",
         "3":"3px"
-      }
+      },
+      gap: {
+        '11': '2.75rem',
+        '12': '3rem',  
+        '16': '4rem',     
+      }  
     },
     
   },
