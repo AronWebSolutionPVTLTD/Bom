@@ -6,6 +6,7 @@ import UniqueNFT from './component/UniqueNFT';
 import BuyBom from './component/BuyBom';
 import About from './component/About';
 import Features from './component/Features';
+import HomeSlider from './component/HomeSlider';
 // import PrivateSales from './component/PrivateSales';
 
 
@@ -15,6 +16,7 @@ function App() {
     <>
     <div className="App " >
       <Header></Header>
+      <HomeSlider></HomeSlider>
       <Vision></Vision>
       <UniqueNFT></UniqueNFT>
       <BuyBom></BuyBom>
