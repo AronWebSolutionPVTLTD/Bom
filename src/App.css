@@ -70,6 +70,12 @@ body{
 
 /*===== mithu =======*/
 
+.range::after {
+    content: "|";
+    font-size: 20px;
+    position: relative;
+    top: -7px;
+}
 .why-choose.w-full::before {
   content: "";
   position: absolute;
