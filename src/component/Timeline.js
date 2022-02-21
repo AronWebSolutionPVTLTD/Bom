@@ -43,7 +43,7 @@ function Timeline() {
   ]
   return (
     <>
-        <section className='py-10'>
+        <section className='py-10 pb-28'>
             <div className='max-w-1400 mx-auto px-5 xl:px-0'>
             
             <h2 className="heading-primary text-center mb-20">20,000+ Unique NFTs</h2>
@@ -93,38 +93,44 @@ function Timeline() {
                            
                 </div>
 
-                <div className='grid md:hidden text-center gap-8'>
+                <div className='grid md:hidden text-center gap-14'>
                     <TimelineLadder 
+                      number={timeline[0].counter}
                       TimeLinetitle={timeline[0].title} 
                         TimelineQues={timeline[0].Ques}
                         description={timeline[0].description}
                     ></TimelineLadder>
 
                     <TimelineLadder 
+                      number={timeline[1].counter}
                       TimeLinetitle={timeline[1].title} 
                         TimelineQues={timeline[1].Ques}
                         description={timeline[1].description}
                     ></TimelineLadder>
 
                     <TimelineLadder 
+                    number={timeline[2].counter}
                       TimeLinetitle={timeline[2].title} 
                         TimelineQues={timeline[2].Ques}
                         description={timeline[2].description}
                     ></TimelineLadder>
 
                     <TimelineLadder 
+                    number={timeline[3].counter}
                       TimeLinetitle={timeline[3].title} 
                         TimelineQues={timeline[3].Ques}
                         description={timeline[3].description}
                     ></TimelineLadder>
 
                     <TimelineLadder 
+                    number={timeline[4].counter}
                       TimeLinetitle={timeline[4].title} 
                         TimelineQues={timeline[4].Ques}
                         description={timeline[4].description}
                     ></TimelineLadder>
 
                     <TimelineLadder 
+                    number={timeline[5].counter}
                       TimeLinetitle={timeline[5].title} 
                         TimelineQues={timeline[5].Ques}
                         description={timeline[5].description}
