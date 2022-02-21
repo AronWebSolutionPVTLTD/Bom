@@ -11,11 +11,11 @@ function MainSliderSlides(props) {
         <div className='flex flex-col md:flex-row flex-wrap justify-center md:justify-start itmes-center lg:items-end'>
             <div className='w-full md:w-7/12'>
                 <div className='w-full text-center md:text-left max-w-full md:max-w-2xl mb-4 md:pb-20'>
-                    <h3 className='flex items-center justify-center md:justify-start mb-2 tracking-3 text-primary'>{props.subhead} 
+                    <h3 className='flex text-16 sm:text-20 items-center justify-center md:justify-start mb-2 tracking-3 text-primary'>{props.subhead} 
                         <Image imageName={LogoIcon} className="w-6 h-6 object-contain"></Image>
                     </h3>
                     <h2 className='class="font-sansation text-27 sm:text-55 leading-tight sm:leading-52 font-bold text-center md:text-left mx-auto md:mx-0 max-w-xl mb-2'>{props.slideTitle}</h2>
-                    <p className='max-w-lg mx-auto md:mx-0'>{props.slideDescription}</p>
+                    <p className='text:16 sm:text-20'>{props.slideDescription}</p>
                     <div className='slide_buttons_Wrapper flex items-center justify-center md:justify-start mt-8 md:mt-16'>
                         <Button ButtonTitle="Get Started!" />
                         <Button ButtonTitle="Whitepaper" />

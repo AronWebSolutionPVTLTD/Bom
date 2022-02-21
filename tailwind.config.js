@@ -77,8 +77,10 @@ module.exports = {
         '100': '100%',
       },
       maxWidth:{
+        "300":"300px",
         "400":"400px",
         "450":"450px",
+        "480":"480px",
         "500":"500px",
         "510":"510px",
         "520":"520px",
@@ -99,7 +101,7 @@ module.exports = {
         "grLeft":"#FBDB03",
         "grRight":"#FA9113",
         "wTitle":"#00A9EB",
-        "grayBlack":"#222136"
+        "grayBlack":"#222136",
         "tokenBorder":"#573e20",
       },
       fontSize: {

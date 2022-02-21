@@ -11,6 +11,7 @@ import Faqs from './component/Faqs';
 import PrivateSales from './component/PrivateSales';
 import TokenSale from './component/TokenSale';
 import HomeSlider from './component/HomeSlider';
+import Timeline from './component/Timeline';
 // import PrivateSales from './component/PrivateSales';
 
 // >>>>>>> main
@@ -29,6 +30,7 @@ function App() {
       <FooterBox></FooterBox>
       <PrivateSales></PrivateSales> 
       <TokenSale></TokenSale>
+      <Timeline></Timeline>
       {/* <PrivateSales></PrivateSales> */}
     </div>
     </>
