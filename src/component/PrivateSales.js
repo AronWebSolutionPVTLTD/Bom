@@ -5,6 +5,7 @@ import tokensale from '../Images/tokensale.png'
 export default function PrivateSales(){
     return(
         <>
+
             <div className='visionBox  pt-16 pb-24 bg-cover bg-no-repeat'>
             <div class="max-w-750 mx-auto text-center mb-16">
                 <h2 className="heading-primary">Private Sales</h2>

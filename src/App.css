@@ -7,9 +7,14 @@ body{
 .sub-heading{
   @apply text-20 leading-30 my-6;
 }
+.bgGradient{
+  @apply bg-gradient-to-r from-grLeft to-grRight;
+}
+svg{
+  @apply inline-block
+}
 /*====Vision==========*/
 .btn-primary{
-
   @apply bg-gradient-to-r from-grLeft to-grRight text-25 px-8 py-4 text-black font-bold font-roboto inline-block rounded-10;
 }
 .btn-size{
@@ -66,6 +71,15 @@ body{
 }
 
 /*===== mithu =======*/
+
+/* ========= Footer ============= */
+
+.social_icons li a{
+  @apply px-2 hover:text-wTitle
+}
+.footerWidget + .footerWidget {
+  @apply lg:mt-0 mt-6
+}
 
 .range::after {
     content: "|";
