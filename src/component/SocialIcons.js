@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaInstagram, FaYoutube, FaPaperPlane, FaTwitter, FaDiscord } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaYoutube, FaPaperPlane, FaTwitter,FaDiscord } from "react-icons/fa";
 function SocialIcons() {
   return (
     <>
