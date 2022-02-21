@@ -1,5 +1,6 @@
 import React from 'react'
 import TimelineLadder from './TimelineLadder'
+
 import ladder from '../Images/ladder.png'
 
 function Timeline() {
