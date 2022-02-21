@@ -6,9 +6,10 @@ import UniqueNFT from './component/UniqueNFT';
 import BuyBom from './component/BuyBom';
 import About from './component/About';
 import Features from './component/Features';
+import PrivateSales from './component/PrivateSales';
+import TokenSale from './component/TokenSale';
 import HomeSlider from './component/HomeSlider';
 // import PrivateSales from './component/PrivateSales';
-
 
 // >>>>>>> main
 function App() {
@@ -22,6 +23,8 @@ function App() {
       <BuyBom></BuyBom>
       <About></About>
       <Features></Features>
+      <PrivateSales></PrivateSales> 
+      <TokenSale></TokenSale>
       {/* <PrivateSales></PrivateSales> */}
     </div>
     </>

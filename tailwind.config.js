@@ -75,6 +75,7 @@ module.exports = {
         "560":"560px",
         "750":"750px",
         "1000":"1000px",
+        "1050":"1050px",
         "1280":"1280px",
         "930":"930px",
         "1400":"1400px",
@@ -85,6 +86,8 @@ module.exports = {
         "blMenu":"#246BFD",
         "grLeft":"#FBDB03",
         "grRight":"#FA9113",
+
+        "tokenBorder":"#573e20",
       },
       fontSize: {
         "12":'12px',
@@ -100,6 +103,7 @@ module.exports = {
         "27":'27px',
         "28":'28px',
         "30":'30px',
+        "32":'32px',
         "40":'40px',
         "42":'42px',
         "44":'44px',
@@ -130,7 +134,7 @@ module.exports = {
       letterSpacing:{
         "1":"1px",
         "2":"2px",
-        "3":"3px",
+        "3":"3px"
       }
     },
     
