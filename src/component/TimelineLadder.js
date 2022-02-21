@@ -3,13 +3,13 @@ import React from 'react'
 function TimelineLadder(props) {
   return (
     <>
-        <div className='w-full flex justify-start'>
-            <div className='max-w-480 text-right'>
-                <h3 className=' text-wTitle font-bold text-25'>{props.TimeLinetitle}</h3>
-                <span className='my-3 text-25  bgGradient inline-block font-bold py-2 px-5 rounded-10 text-black'>{props.TimelineQues}</span>
-                <p className='text-20'>{props.description}</p>
-            </div>
-        </div>
+    <div className='max-w-450 mx-auto md:mx-0 h-auto'>
+        <div className='flex md:hidden w-20 h-20 rounded-full items-center justify-center text-underline'>
+        {props.number}</div>
+        <h3 className=' text-wTitle font-bold md:text-14 lg:text-22'>{props.TimeLinetitle}</h3>
+        <span className='my-2 lg:my-3 md:text-14 lg:text-25  bgGradient inline-block font-bold py-2 px-5 rounded-10 text-black'>{props.TimelineQues}</span>
+        <p className='md:text-14 lg:text-20'>{props.description}</p>
+    </div>
     </>
   )
 }

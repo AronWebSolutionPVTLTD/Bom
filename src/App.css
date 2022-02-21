@@ -84,7 +84,6 @@ body{
 /*===== mithu =======*/
 
 /* ========= Footer ============= */
-
 .social_icons li a{
   @apply px-2 hover:text-wTitle
 }
