@@ -10,6 +10,11 @@ import FooterBox from './component/Footer';
 import Faqs from './component/Faqs';
 import PrivateSales from './component/PrivateSales';
 import TokenSale from './component/TokenSale';
+import SecureBlockchain from './component/SecureBlockchain';     
+import ImageWithText from './component/ImageWithText';
+import AppSection from './component/AppSection';
+
+
 import HomeSlider from './component/HomeSlider';
 import Pricing from './component/Pricing';
 import Contact from './component/Contact';
@@ -33,16 +38,20 @@ function App() {
       <Features></Features>
       <PrivateSales></PrivateSales> 
       <TokenSale></TokenSale>
+      <SecureBlockchain></SecureBlockchain>
+      <ImageWithText></ImageWithText>
+      <AppSection></AppSection>
+      {/* <PrivateSales></PrivateSales> */}
       <Timeline></Timeline>
       <Pricing></Pricing>
       <OurTeam></OurTeam>
       <Contact></Contact>
       <Faqs></Faqs>
       <FooterBox></FooterBox>
-      
+
     </div>
     </>
   );
 }
 
-export default App;
+export default App; 
