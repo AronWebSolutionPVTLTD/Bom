@@ -7,9 +7,14 @@ body{
 .sub-heading{
   @apply text-20 leading-30 my-6;
 }
+.bgGradient{
+  @apply bg-gradient-to-r from-grLeft to-grRight;
+}
+svg{
+  @apply inline-block
+}
 /*====Vision==========*/
 .btn-primary{
-
   @apply bg-gradient-to-r from-grLeft to-grRight text-25 px-8 py-4 text-black font-bold font-roboto inline-block rounded-10;
 }
 .btn-size{
@@ -19,27 +24,49 @@ body{
   margin: 0 25px;
   @apply bg-black bg-opacity-70 p-10 rounded-20 relative mb-6 aspect-square flex justify-center items-center
 }
-.slickNft .card-nft:before{
+.slickNft .card-nft:before {
   content:'';
   @apply border border-dashed border-grRight absolute top-20px left-20px w-99 h-99  rounded-20 -z-1
 }
-.slickNft .slick-prev,.slickNft .slick-next{
+.slickNft .slick-prev,.slickNft .slick-next,
+.OurTeam .slick-prev,.OurTeam .slick-next
+{
   @apply top-auto -bottom-20 h-40 w-40;
 }
-.slickNft .slick-prev:before,.slickNft  .slick-next:before{
+.slickNft .slick-prev:before,.slickNft  .slick-next:before,
+.OurTeam .slick-prev:before,.OurTeam  .slick-next:before
+{
   @apply text-transparent w-40 h-40 text-40 bg-contain;
 }
-.slickNft .slick-prev:before{
+.slickNft .slick-prev:before, .OurTeam .slick-prev:before{
   @apply bg-lftIcon
 }
-.slickNft .slick-next:before{
+.slickNft .slick-next:before, .OurTeam .slick-next:before{
   @apply bg-rgtIcon
 }
-.slickNft .slick-prev {
+.slickNft .slick-prev , .OurTeam .slick-prev {
   left: 46%;
 }
-.slickNft .slick-next {
+.slickNft .slick-next , .OurTeam .slick-next {
   right: 46%;
+}
+.card-team {
+  @apply text-center mx-6;
+}
+.OurTeam .slick-slide:nth-child(odd) .card-team {
+  @apply mt-14
+}
+.card-team img{
+  @apply w-full
+}
+.card-team .teamDtl{
+  @apply mt-5
+}
+.card-team h4{
+  @apply text-28 text-wTitle font-bold capitalize;
+}
+.card-team p{
+  @apply text-20 font-normal;
 }
 /* 
   @apply text-20 px-8 py-2 mt-0;
@@ -62,10 +89,29 @@ body{
   @apply px-5
 }
 .header_button a{
-  @apply px-5 py-3 bg-black text-white font-medium rounded-md inline-block	
+  @apply px-5 py-3 bg-black text-black font-medium rounded-md inline-block	
 }
-
+.pricing-btn {
+  @apply mt-10
+}
+.field-input input[type="text"]::placeholder{
+  @apply text-white
+}
+.field-input textarea::placeholder{
+  @apply text-white
+}
+.yellow-btn input{
+ @apply w-full px-1 py-2 uppercase
+} 
 /*===== mithu =======*/
+
+/* ========= Footer ============= */
+.social_icons li a{
+  @apply px-2 hover:text-wTitle
+}
+.footerWidget + .footerWidget {
+  @apply lg:mt-0 mt-6
+}
 
 .range::after {
     content: "|";
@@ -107,3 +153,28 @@ body{
   height: 76px;
   width: 76px;
 }
+/*=== Naveen ====*/
+.accept-btn input:checked ~ .checkmark {
+  background-color: none;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.accept-btn input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.accept-btn .checkmark:after {
+  left: 6px;
+top: 2px;
+width: 6px;
+height: 11px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}  

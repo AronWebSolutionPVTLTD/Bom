@@ -6,6 +6,8 @@ import UniqueNFT from './component/UniqueNFT';
 import BuyBom from './component/BuyBom';
 import About from './component/About';
 import Features from './component/Features';
+import FooterBox from './component/Footer';
+import Faqs from './component/Faqs';
 import PrivateSales from './component/PrivateSales';
 import TokenSale from './component/TokenSale';
 import SecureBlockchain from './component/SecureBlockchain';     
@@ -14,6 +16,11 @@ import AppSection from './component/AppSection';
 
 
 import HomeSlider from './component/HomeSlider';
+import Pricing from './component/Pricing';
+import Contact from './component/Contact';
+import Timeline from './component/Timeline';
+import OurTeam from './component/OurTeam';
+
 // import PrivateSales from './component/PrivateSales';
 
 // >>>>>>> main
@@ -24,9 +31,10 @@ function App() {
       <Header></Header>
       <HomeSlider></HomeSlider>
       <Vision></Vision>
-      <UniqueNFT></UniqueNFT>
       <BuyBom></BuyBom>
       <About></About>
+      <UniqueNFT></UniqueNFT>
+      
       <Features></Features>
       <PrivateSales></PrivateSales> 
       <TokenSale></TokenSale>
@@ -34,6 +42,13 @@ function App() {
       <ImageWithText></ImageWithText>
       <AppSection></AppSection>
       {/* <PrivateSales></PrivateSales> */}
+      <Timeline></Timeline>
+      <Pricing></Pricing>
+      <OurTeam></OurTeam>
+      <Contact></Contact>
+      <Faqs></Faqs>
+      <FooterBox></FooterBox>
+
     </div>
     </>
   );
