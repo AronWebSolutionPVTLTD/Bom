@@ -14,6 +14,7 @@ import HomeSlider from './component/HomeSlider';
 import Pricing from './component/Pricing';
 import Contact from './component/Contact';
 import Timeline from './component/Timeline';
+import OurTeam from './component/OurTeam';
 
 // import PrivateSales from './component/PrivateSales';
 
@@ -25,18 +26,20 @@ function App() {
       <Header></Header>
       <HomeSlider></HomeSlider>
       <Vision></Vision>
-      <UniqueNFT></UniqueNFT>
       <BuyBom></BuyBom>
       <About></About>
+      <UniqueNFT></UniqueNFT>
+      
       <Features></Features>
       <PrivateSales></PrivateSales> 
       <TokenSale></TokenSale>
       <Timeline></Timeline>
       <Pricing></Pricing>
+      <OurTeam></OurTeam>
       <Contact></Contact>
       <Faqs></Faqs>
       <FooterBox></FooterBox>
-      {/* <PrivateSales></PrivateSales> */}
+      
     </div>
     </>
   );
