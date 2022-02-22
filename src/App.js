@@ -13,6 +13,8 @@ import ImageWithText from './component/ImageWithText';
 import AppSection from './component/AppSection';
 
 
+import HomeSlider from './component/HomeSlider';
+// import PrivateSales from './component/PrivateSales';
 
 // >>>>>>> main
 function App() {
@@ -20,6 +22,7 @@ function App() {
     <>
     <div className="App " >
       <Header></Header>
+      <HomeSlider></HomeSlider>
       <Vision></Vision>
       <UniqueNFT></UniqueNFT>
       <BuyBom></BuyBom>
@@ -30,6 +33,7 @@ function App() {
       <SecureBlockchain></SecureBlockchain>
       <ImageWithText></ImageWithText>
       <AppSection></AppSection>
+      {/* <PrivateSales></PrivateSales> */}
     </div>
     </>
   );

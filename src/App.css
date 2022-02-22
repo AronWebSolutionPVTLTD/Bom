@@ -9,7 +9,8 @@ body{
 }
 /*====Vision==========*/
 .btn-primary{
-  @apply bg-gradient-to-r from-grLeft to-grRight text-25 px-8 py-4 text-black font-bold font-roboto inline-block mt-4 rounded-10;
+
+  @apply bg-gradient-to-r from-grLeft to-grRight text-25 px-8 py-4 text-black font-bold font-roboto inline-block rounded-10;
 }
 .btn-size{
  @apply text-20 px-8 py-2;
@@ -53,6 +54,7 @@ body{
 .header-logo-part img{
   @apply w-20
 }
+
 .header_navigation li{
   @apply px-4
 }
@@ -62,11 +64,6 @@ body{
 .header_button a{
   @apply px-5 py-3 bg-black text-white font-medium rounded-md inline-block	
 }
-/*====Gurinder==========*/
-
-
-/* ankit css end */
-
 
 /*===== mithu =======*/
 
@@ -76,6 +73,29 @@ body{
     position: relative;
     top: -7px;
 }
+
+.slide_buttons_Wrapper .header_button{
+  @apply pl-0 pr-2 text-black
+}
+.slide_buttons_Wrapper .header_button a{
+  @apply text-black text-17 m-0
+}
+.social_icons li{
+  @apply px-2
+}
+.main-slider-wrapper .slick-dots li button:before{
+  @apply flex items-center justify-center text-transparent rounded-full	border-3 border-white	opacity-100			
+}
+.main-slider-wrapper .slick-dots li.slick-active button:before{
+  @apply border-5	border-primary text-transparent bg-black opacity-100	
+}
+.slide_buttons_Wrapper ul{
+  @apply hidden md:flex
+}
+
+/* ankit css end */
+
+/*===== mithu =======*/
 .why-choose.w-full::before {
   content: "";
   position: absolute;

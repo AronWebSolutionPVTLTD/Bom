@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from './Image'
 import features from '../Images/curve.png'
+import line from '../Images/line.png'
+import cardBg from '../Images/cardbg.png'
 import card1 from '../Images/card1.png'
 import boomneed from '../Images/boomneed.png'
 import earlyinvestor from '../Images/earlyinvestor.png'
@@ -44,6 +46,7 @@ export default function Features(){
                       <div className='w-2/5 why-choose w-full relative flex flex-wrap '>
                       
                          <div className='bg-cardbg p-7 bg-cover flex flex-wrap items-center bg-no-repeat w-full'>
+
                             <div className='w-1/2 pl-5'>
                                 <h3 className='mb-2 text-40 font-bold text-white font-sansation leading-42'>Become an Early Investor</h3>
                                 <p className='text-20 leading-30'>If you’d like to become part of BOM’s success story, it’s your time to act: participate in our BOM pre-sale, and secure your share from the transaction token of the future. As mentioned before, this pre-sale is investors’ best chance of taking....</p>
