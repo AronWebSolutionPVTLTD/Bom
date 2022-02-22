@@ -4,10 +4,10 @@ import wallet from '../Images/wallet.png'
 export default function TokenSale(){
 	return(
 		<>
-		<div className="token_sale pt-16 pb-24">
-		<div className='container p-16 flex flex-wrap mx-auto max-w-1050 items-center bg-tokenBg border-4 border-tokenBorder rounded-xl'>
+		<div className="token_sale pt-16 pb-24  px-4">
+		<div className='container p-16 flex flex-wrap mx-auto max-w-1400 items-center bg-tokenBg border-4 border-tokenBorder rounded-xl'>
          <div className="sale-image w-2/5">
-		 <Image className="w-80" imageName={wallet} alt={wallet}></Image> 
+		 <Image className="w-full pr-10" imageName={wallet} alt={wallet}></Image> 
 		 </div>
 		 <div className="sale-metar w-3/5 flex flex-wrap justify-center">
 			 <h3 className="text-40 font-bold font-sansation m-0 pb-1 pt-0">Token Sale Ends In</h3>
@@ -42,6 +42,7 @@ export default function TokenSale(){
 				<span className="text-16 text-white font-Roboto">0</span> <span className="text-16 text-white font-Roboto">24M</span>
 			</div>
 			<div className="range bg-white h-4 rounded-xl w-full flex"></div>
+			<div> <input className="slider hidden bg-white h-4 rounded-xl w-full flex" type="range" min="1" max="100" value="50" /></div>
 			<h5 className="text-16 font-bold capitalize mt-4 font-Roboto">Token Hardcap</h5>
 			</div>
 			 <a href="" className='btn-primary'>Buy More Tokens</a> 

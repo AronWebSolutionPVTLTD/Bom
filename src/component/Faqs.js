@@ -7,7 +7,7 @@ const Faqs = () => {
                 <div class="max-w-750 mx-auto text-center mb-16">
                     <h2 className="heading-primary">FAQ</h2>
                 </div>
-                <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-16 gap-6">
+                <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-16 gap-6 px-4">
                     <div class="cols">
                         <div className="FaqBlock bg-grayBlack px-8 lg:px-12 py-12 lg:py-16 rounded-20 lg:text-left text-center">
                             <h4 className="text-wTitle text-25 font-bold mb-2 font-sansation">What is BOM Token?</h4>

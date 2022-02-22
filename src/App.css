@@ -2,10 +2,10 @@ body{
   @apply bg-bodyBg bg-no-repeat bg-cover text-white font-rubik;
 }
 .heading-primary{
-  @apply text-40 leading-42 font-sansation font-bold;
+  @apply  md:text-40 text-32 md:leading-42 leading-34 md:px-0 px-5 font-sansation font-bold;
 }
 .sub-heading{
-  @apply text-20 leading-30 my-6;
+  @apply md:text-20 text-16 md:leading-30 leading-6 md:px-0 px-5 md:my-6 my-3;
 }
 .bgGradient{
   @apply bg-gradient-to-r from-grLeft to-grRight;
@@ -15,7 +15,7 @@ svg{
 }
 /*====Vision==========*/
 .btn-primary{
-  @apply bg-gradient-to-r from-grLeft to-grRight text-25 px-8 py-4 text-black font-bold font-roboto rounded-10;
+  @apply bg-gradient-to-r from-grLeft to-grRight md:text-25 text-18 px-8 py-4 text-black font-bold font-roboto inline-block rounded-10;
 }
 .btn-size{
  @apply text-20 px-8 py-2;
@@ -82,7 +82,7 @@ body{
   @apply box-border;
 }
 .header-logo-part img{
-  @apply w-20;
+  @apply w-100
 }
 
 .header_navigation li{

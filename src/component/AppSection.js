@@ -8,7 +8,7 @@ export default function AppSection(){
 	return(
 		<>
 		<div className="appSection mb-26">
-		 <div className="container grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-1200 mx-auto border-b-1 border-white/20 px-4 md:text-left text-center">
+		 <div className="container grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-1400 mx-auto border-b-1 border-white/20 px-4  md:text-left text-center">
 			 <div className="">
 			<h3 className="text-40 font-sansation mb-5 font-bold">Meet the BOM App</h3>
 			<p className="text-25 font-bold max-w-750">With our groundbreaking application, clients will not only be able to buy, and sell BOM tokens, and their Business Licenses, but also can choose to share the postings from BOM’s marketing team to their own social accounts in return for various rewards.</p>
