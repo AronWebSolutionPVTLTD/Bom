@@ -15,18 +15,18 @@ svg{
 }
 /*====Vision==========*/
 .btn-primary{
-  @apply bg-gradient-to-r from-grLeft to-grRight text-25 px-8 py-4 text-black font-bold font-roboto inline-block rounded-10;
+  @apply bg-gradient-to-r from-grLeft to-grRight text-25 px-8 py-4 text-black font-bold font-roboto rounded-10;
 }
 .btn-size{
  @apply text-20 px-8 py-2;
 } 
 .slickNft .card-nft {
   margin: 0 25px;
-  @apply bg-black bg-opacity-70 p-10 rounded-20 relative mb-6 aspect-square flex justify-center items-center
+  @apply bg-black bg-opacity-70 p-10 rounded-20 relative mb-6 aspect-square flex justify-center items-center;
 }
 .slickNft .card-nft:before {
   content:'';
-  @apply border border-dashed border-grRight absolute top-20px left-20px w-99 h-99  rounded-20 -z-1
+  @apply border border-dashed border-grRight absolute top-20px left-20px w-99 h-99  rounded-20 -z-1;
 }
 .slickNft .slick-prev,.slickNft .slick-next,
 .OurTeam .slick-prev,.OurTeam .slick-next
@@ -39,28 +39,31 @@ svg{
   @apply text-transparent w-40 h-40 text-40 bg-contain;
 }
 .slickNft .slick-prev:before, .OurTeam .slick-prev:before{
-  @apply bg-lftIcon
+  @apply bg-lftIcon;
 }
 .slickNft .slick-next:before, .OurTeam .slick-next:before{
-  @apply bg-rgtIcon
+  @apply bg-rgtIcon;
+}
+.slickNft .slick-prev , .OurTeam .slick-prev, .slickNft .slick-next , .OurTeam .slick-next {
+  left: 50%;
 }
 .slickNft .slick-prev , .OurTeam .slick-prev {
-  left: 46%;
+  transform: translateX(-50%) translateX(-30px);
 }
-.slickNft .slick-next , .OurTeam .slick-next {
-  right: 46%;
+.slickNft .slick-next , .OurTeam .slick-next{
+  transform: translateX(-50%) translateX(30px);
 }
 .card-team {
   @apply text-center mx-6;
 }
 .OurTeam .slick-slide:nth-child(odd) .card-team {
-  @apply mt-14
+  @apply mt-14;
 }
 .card-team img{
-  @apply w-full
+  @apply w-full;
 }
 .card-team .teamDtl{
-  @apply mt-5
+  @apply mt-5;
 }
 .card-team h4{
   @apply text-28 text-wTitle font-bold capitalize;
@@ -79,38 +82,38 @@ body{
   @apply box-border;
 }
 .header-logo-part img{
-  @apply w-20
+  @apply w-20;
 }
 
 .header_navigation li{
-  @apply px-4
+  @apply px-4;
 }
 .header_button{
-  @apply px-5
+  @apply px-5;
 }
 .header_button a{
-  @apply px-5 py-3 bg-black text-black font-medium rounded-md inline-block	
+  @apply px-5 py-3 bg-black text-black font-medium rounded-md inline-block;	
 }
 .pricing-btn {
-  @apply mt-10
+  @apply mt-6 md:mt-10 inline-block md:text-25 text-14 px-4 md:px-8 py-3 md:py-4 ;
 }
 .field-input input[type="text"]::placeholder{
-  @apply text-white
+  @apply text-white;
 }
 .field-input textarea::placeholder{
-  @apply text-white
+  @apply text-white;
 }
 .yellow-btn input{
- @apply w-full px-1 py-2 uppercase
+ @apply w-full px-1 py-2 uppercase;
 } 
 /*===== mithu =======*/
 
 /* ========= Footer ============= */
 .social_icons li a{
-  @apply px-2 hover:text-wTitle
+  @apply px-2 hover:text-wTitle;
 }
 .footerWidget + .footerWidget {
-  @apply lg:mt-0 mt-6
+  @apply lg:mt-0 mt-6;
 }
 
 .range::after {
@@ -121,22 +124,22 @@ body{
 }
 
 .slide_buttons_Wrapper .header_button{
-  @apply pl-0 pr-2 text-black
+  @apply pl-0 pr-2 text-black;
 }
 .slide_buttons_Wrapper .header_button a{
-  @apply text-black text-17 m-0
+  @apply text-black text-17 m-0;
 }
 .social_icons li{
   @apply px-2
 }
 .main-slider-wrapper .slick-dots li button:before{
-  @apply flex items-center justify-center text-transparent rounded-full	border-3 border-white	opacity-100			
+  @apply flex items-center justify-center text-transparent rounded-full	border-3 border-white	opacity-100	;		
 }
 .main-slider-wrapper .slick-dots li.slick-active button:before{
-  @apply border-5	border-primary text-transparent bg-black opacity-100	
+  @apply border-5	border-primary text-transparent bg-black opacity-100	;
 }
 .slide_buttons_Wrapper ul{
-  @apply hidden md:flex
+  @apply hidden md:flex;
 }
 
 /* ankit css end */

@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import nft from '../Images/nft.png';
 import nft1 from '../Images/nft2.png';
 import nft2 from '../Images/nft3.png';
+
 export default function UniqueNFT(){
     var settings = {
         dots: false,
@@ -12,11 +13,21 @@ export default function UniqueNFT(){
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 3,
-        centerPadding: '40px'
+        centerPadding: '40px',
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false
+              }
+            }
+          ]
       };      
    return(
         <>
-        <div className='uniqueNFT py-36'>
+        <div className='uniqueNFT py-20 md:py-32'>
             <div class="max-w-750 mx-auto text-center mb-16">
                 <h2 className="heading-primary">20,000+ Unique NFTs</h2>
                 <p class="sub-heading">Our Non-Fungible Tokens will function as the licenses to use BOM. Each company who intends to participate will have to acquire their own NFT.</p>

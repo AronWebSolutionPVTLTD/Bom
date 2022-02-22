@@ -4,7 +4,7 @@ function TimelineLadder(props) {
   return (
     <>
     <div className='max-w-450 mx-auto md:mx-0 h-auto'>
-        <div className='flex md:hidden w-20 h-20 bg-wTitle text-32 font-bold mx-auto rounded-full items-center justify-center underline'>
+        <div className='flex md:hidden w-80 h-80 bg-wTitle text-32 font-bold mx-auto rounded-full items-center justify-center underline'>
         <span class="relative inline-block">{props.number}</span>
         </div>
         <h3 className=' text-wTitle font-bold md:text-14 lg:text-22 my-3 md:my-0'>{props.TimeLinetitle}</h3>

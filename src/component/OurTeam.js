@@ -11,12 +11,22 @@ const OurTeam = () => {
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 2,
-        centerPadding: '40px'
+        centerPadding: '40px',
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false
+              }
+            }
+          ]
       };      
     return ( 
         <>
         <div className="Our_Team py-24">
-            <div className="max-w-1400 mx-auto">
+            <div className="max-w-1400 mx-auto px-4">
                 <div class="max-w-950 mx-auto text-center mb-16">
                     <h2 className="heading-primary">Our Team</h2>
                     <p class="sub-heading">The BOM team is an all-star group of blockchain romantics, Emmy-nominated game industry veterans with credits including Diablo, World of Warcraft and Marvel, and visionaries who are building an industry leading Play-to-Earn gaming experience from the ground up.</p>

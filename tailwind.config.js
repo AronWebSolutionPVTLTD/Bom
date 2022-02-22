@@ -1,4 +1,5 @@
 module.exports = {
+  
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
@@ -25,6 +26,7 @@ module.exports = {
         'ftr_bg': "url('/src/Images/ftr_bg.png')",
         'pricing': "url('/src/Images/pricingbg.png')",
         'contactbg': "url('/src/Images/contactbg.png')",
+        'headerBg': "url('/src/Images/hdrBg.png')",
 
       },
       borderRadius: {
@@ -70,7 +72,7 @@ module.exports = {
         "198":"190px",
       },
       width: {
-      "20":"20px",
+        "20":"20px",
         "30":"30px",
         "40":"40px",
         "50":"50px",
@@ -117,6 +119,7 @@ module.exports = {
       },
       fontSize: {
         "12":'12px',
+        "13":'13px',
         "14":'14px',
         "16":'16px',
         "17":'17px',

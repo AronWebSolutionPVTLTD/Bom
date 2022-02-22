@@ -28,24 +28,23 @@ function App() {
   return (
     <>
     <div className="App " >
-      <Header></Header>
+      {/* <Header></Header> */}
       <HomeSlider></HomeSlider>
       <Vision></Vision>
-      <BuyBom></BuyBom>
       <About></About>
       <UniqueNFT></UniqueNFT>
       
       <Features></Features>
+      <Pricing></Pricing>
       <PrivateSales></PrivateSales> 
       <TokenSale></TokenSale>
       <SecureBlockchain></SecureBlockchain>
       <ImageWithText></ImageWithText>
-      <AppSection></AppSection>
-      {/* <PrivateSales></PrivateSales> */}
       <Timeline></Timeline>
-      <Pricing></Pricing>
+      
       <OurTeam></OurTeam>
       <Contact></Contact>
+      <AppSection></AppSection>
       <Faqs></Faqs>
       <FooterBox></FooterBox>
 
