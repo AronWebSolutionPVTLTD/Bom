@@ -55,6 +55,7 @@ module.exports = {
         '20px': '20px',
       },
       height: {
+        "20":"20px",
         "30":"30px",
         "40":"40px",
         "50":"50px",
@@ -64,8 +65,10 @@ module.exports = {
         "90":"90px",
         '99': '99%',
         '100': '100%',
+        "198":"190px",
       },
       width: {
+      "20":"20px",
         "30":"30px",
         "40":"40px",
         "50":"50px",
@@ -107,6 +110,7 @@ module.exports = {
         "wTitle":"#00A9EB",
         "grayBlack":"#222136",
         "tokenBorder":"#573e20",
+        "yelloText":"#FBDB04",        
       },
       fontSize: {
         "12":'12px',

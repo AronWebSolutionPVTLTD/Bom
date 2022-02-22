@@ -89,15 +89,23 @@ body{
   @apply px-5
 }
 .header_button a{
-  @apply px-5 py-3 bg-black text-white font-medium rounded-md inline-block	
+  @apply px-5 py-3 bg-black text-black font-medium rounded-md inline-block	
 }
 .pricing-btn {
   @apply mt-10
 }
+.field-input input[type="text"]::placeholder{
+  @apply text-white
+}
+.field-input textarea::placeholder{
+  @apply text-white
+}
+.yellow-btn input{
+ @apply w-full px-1 py-2 uppercase
+} 
 /*===== mithu =======*/
 
 /* ========= Footer ============= */
-
 .social_icons li a{
   @apply px-2 hover:text-wTitle
 }
@@ -145,3 +153,28 @@ body{
   height: 76px;
   width: 76px;
 }
+/*=== Naveen ====*/
+.accept-btn input:checked ~ .checkmark {
+  background-color: none;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.accept-btn input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.accept-btn .checkmark:after {
+  left: 6px;
+top: 2px;
+width: 6px;
+height: 11px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}  
