@@ -6,7 +6,7 @@ export default function SecureBlockchain(){
 	return(
 		<>
 		<div className="Secure_blockchain pt-16 pb-24">
-				<div className="container flex gap-10 items-center max-w-1200 mx-auto border-b-2  border-white/20 pb-24">
+				<div className="container flex gap-10 items-center max-w-1400 mx-auto border-b-2  border-white/20 pb-24  px-4">
 					<div class="blockchain_image flex flex-wrap justify-center w-1/2">
 					<div><Image className="" imageName={bom} alt={bom}></Image></div>
 					</div>

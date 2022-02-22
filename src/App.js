@@ -13,8 +13,6 @@ import TokenSale from './component/TokenSale';
 import SecureBlockchain from './component/SecureBlockchain';     
 import ImageWithText from './component/ImageWithText';
 import AppSection from './component/AppSection';
-
-
 import HomeSlider from './component/HomeSlider';
 import Pricing from './component/Pricing';
 import Contact from './component/Contact';

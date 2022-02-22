@@ -7,7 +7,7 @@ import SocialIcons from './SocialIcons';
 const FooterBox = () => {
     return ( 
         <>
-        <footer className='footer py-20 bg-ftr_bg bg-no-repeat bg-center'>
+        <footer className='footer py-20 bg-ftr_bg bg-no-repeat bg-center px-4'>
             <div className='max-w-1400 mx-auto'>
                 <div className='footerTop'>
                     <div className='ftrLogos flex items-center justify-center mb-5'>

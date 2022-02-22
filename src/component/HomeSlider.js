@@ -43,7 +43,7 @@ export default function HomeSlider() {
     ]
   return (
     <>
-        <section className='pt-10 md:pt-20 pb-10'>
+        <section className='pt-10 md:pt-20 pb-10 px-4'>
             <div className='max-w-1400 mx-auto px-5 xl:px-0'>
                 <Slider2 className='main-slider-wrapper'  {...settings}>
                     <MainSliderSlides 

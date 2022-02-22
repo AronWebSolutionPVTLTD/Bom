@@ -12,7 +12,7 @@ export default function Pricing(){
                 <h2 className="heading-primary">BUY BOM Token & 20,000+ Unique NFTs</h2>
                 <p class="sub-heading">Our Non-Fungible Tokens will function as the licenses to use BOM. Each company who intends to participate will have to acquire their own NFT.</p>
                 </div>
-                <div className='container max-w-1400 mx-auto flex items-end gap-8 text-white'>    
+                <div className='container max-w-1400 mx-auto flex items-end gap-8 text-white px-4'>    
                     <div className='cols-2 w-2/4 bg-white/10 rounded-lg p-10'>
                         <div className='flex gap-16 text-white'>
                             <div className='left-pricing w-2/4 text-center'>
