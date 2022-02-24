@@ -7,13 +7,13 @@ export default function Pricing(){
       
    return(
         <>
-        <div className='pricing-section bg-pricing py-20 px-4 lg:px-0'>
+        <div className='pricing-section bg-pricing pt-20 pb-28 px-4 lg:px-0'>
             <div class="max-w-800 mx-auto text-center mb-16">
                 <h2 className="heading-primary">BUY BOM Token & 20,000+ Unique NFTs</h2>
                 <p class="sub-heading">Our Non-Fungible Tokens will function as the licenses to use BOM. Each company who intends to participate will have to acquire their own NFT.</p>
                 </div>
                 <div className='container max-w-1400 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 text-white'>    
-                    <div className='cols-2 w-full bg-white/10 rounded-lg p-6 lg:p-4'>
+                    <div className='cols-2 w-full bg-white/10 rounded-lg py-6 lg:py-12 px-6 lg:px-10'>
                         <div className='flex gap-6 md:gap-16 text-white'>
                             <div className='left-pricing w-2/4 text-center'>
                                 <Image className='mx-auto mb-6' imageName={token1} alt={token1}></Image>
@@ -26,15 +26,15 @@ export default function Pricing(){
                             </div>   
                             <div className='right-pricing w-2/4 text-center'>
                                 <ul>
-                                    <li className='p-1 md:p-3 border-b border-white/10'>
+                                    <li className='p-1 md:p-2 border-b border-white/10'>
                                         <h6 className='font-rubik text-13 md:text-17 text-white/40 md:leading-28 leading:18'>Market Cap:</h6>
                                         <p className='font-rubik text-13 md:text-17 leading-28'>$163.936.272.151 USD</p>
                                     </li>
-                                    <li className='p-1 md:p-3 border-b border-white/10 '>
+                                    <li className='p-1 md:p-2 border-b border-white/10 '>
                                         <h6 className='font-rubik text-13 md:text-17 text-white/40 md:leading-28 leading:18'>Volume (24h):</h6>
                                         <p className='font-rubik text-13 md:text-17 leading-28'>$9.758.550.000 USD</p>
                                     </li>
-                                    <li className='p-1 md:p-3 border-b border-white/10 '>
+                                    <li className='p-1 md:p-2 border-b border-white/10 '>
                                         <h6 className='font-rubik text-13 md:text-17 text-white/40 md:leading-28 leading:18'>Circulating Supply:</h6>
                                         <p className='font-rubik text-13 md:text-17 leading-28'>17.014.062 BTC</p>
                                     </li>
@@ -44,7 +44,7 @@ export default function Pricing(){
                             </div>
                         </div>
                     </div>
-                    <div className='cols-2 w-full bg-white/10 rounded-lg p-6 lg:p-4'>
+                    <div className='cols-2 w-full bg-white/10 rounded-lg py-6 lg:py-12 px-6 lg:px-10'>
                         <div className='flex gap-6 md:gap-16 text-white'>
                             <div className='left-pricing w-2/4 text-center'>
                                 <Image className='mx-auto mb-6' imageName={token2} alt={token2}></Image>
@@ -57,15 +57,15 @@ export default function Pricing(){
                             </div>   
                             <div className='right-pricing w-2/4 text-center'>
                                 <ul>
-                                    <li className='p-1 md:p-3 border-b border-white/10'>
+                                    <li className='p-1 md:p-2 border-b border-white/10'>
                                         <h6 className='font-rubik text-13 md:text-17 text-white/40 md:leading-28 leading:18'>Market Cap:</h6>
                                         <p className='font-rubik text-13 md:text-17 leading-28'>$163.936.272.151 USD</p>
                                     </li>
-                                    <li className='p-1 md:p-3 border-b border-white/10 '>
+                                    <li className='p-1 md:p-2 border-b border-white/10 '>
                                         <h6 className='font-rubik text-13 md:text-17 text-white/40 md:leading-28 leading:18'>Volume (24h):</h6>
                                         <p className='font-rubik text-13 md:text-17 leading-28'>$9.758.550.000 USD</p>
                                     </li>
-                                    <li className='p-1 md:p-3 border-b border-white/10 '>
+                                    <li className='p-1 md:p-2 border-b border-white/10 '>
                                         <h6 className='font-rubik text-13 md:text-17 text-white/40 md:leading-28 leading:18'>Circulating Supply:</h6>
                                         <p className='font-rubik text-13 md:text-17 leading-28'>17.014.062 BTC</p>
                                     </li>

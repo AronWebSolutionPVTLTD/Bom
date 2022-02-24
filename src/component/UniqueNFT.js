@@ -27,11 +27,11 @@ export default function UniqueNFT(){
       };      
    return(
         <>
-        <div className='uniqueNFT py-20 md:py-32'>
-            <div class="max-w-750 mx-auto text-center mb-16">
+        <div id="Services" className='uniqueNFT py-24 md:py-32'>
+            <div class="max-w-760 mx-auto text-center mb-16">
                 <h2 className="heading-primary">20,000+ Unique NFTs</h2>
                 <p class="sub-heading">Our Non-Fungible Tokens will function as the licenses to use BOM. Each company who intends to participate will have to acquire their own NFT.</p>
-                <a className='btn-primary'>Get Started!</a>
+                <a className='btn-primary inline-block'>Get Started!</a>
             </div>
             <div class="max-w-1280 mx-auto">
                 <Slider className='slickNft' {...settings}>

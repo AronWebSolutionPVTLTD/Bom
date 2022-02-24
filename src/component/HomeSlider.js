@@ -43,7 +43,7 @@ export default function HomeSlider() {
     ]
   return (
     <>
-        <section className='pt-10 md:pt-30 pb-10 md:pb-20 bg-none lg:bg-headerBg bg-100%'>
+        <div id="Home" className='pt-10 md:pt-36 pb-10 md:pb-20 bg-none lg:bg-headerBg bg-[length:100%_100%]'>
             <div className='max-w-1400 mx-auto px-5 xl:px-0'>
                 <Slider2 className='main-slider-wrapper'  {...settings}>
                     <MainSliderSlides 
@@ -60,7 +60,7 @@ export default function HomeSlider() {
 
                 </Slider2>
             </div>
-        </section>
+        </div>
     </>
   )
 }

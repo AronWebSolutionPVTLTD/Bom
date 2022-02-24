@@ -4,8 +4,11 @@ body{
 .heading-primary{
   @apply  md:text-40 text-32 md:leading-42 leading-34 md:px-0 px-5 font-sansation font-bold;
 }
+.subHead {
+  @apply  font-sansation;
+}
 .sub-heading{
-  @apply md:text-20 text-16 md:leading-30 leading-6 md:px-0 px-5 md:my-6 my-3;
+  @apply md:text-20 text-16 md:leading-30 leading-6 md:px-0 px-5 my-6;
 }
 .bgGradient{
   @apply bg-gradient-to-r from-grLeft to-grRight;
@@ -13,9 +16,14 @@ body{
 svg{
   @apply inline-block
 }
+.main-nav:hover:after, .main-nav.nav-active:after {
+  content: '';
+  @apply h-6px w-6px bg-blMenu hidden md:block mx-auto rounded-full;
+}
+
 /*====Vision==========*/
 .btn-primary{
-  @apply bg-gradient-to-r from-grLeft to-grRight md:text-25 text-18 px-8 py-4 text-black font-bold font-roboto inline-block rounded-10;
+  @apply bg-gradient-to-r from-grLeft to-grRight md:text-25 text-18 px-8 py-4 text-black font-bold font-roboto rounded-10;
 }
 .btn-size{
  @apply text-20 px-8 py-2;
@@ -95,7 +103,7 @@ body{
   @apply px-5 py-3 bg-black text-black font-medium rounded-md inline-block;	
 }
 .pricing-btn {
-  @apply mt-6 md:mt-10 inline-block md:text-25 text-14 px-4 md:px-8 py-3 md:py-4 ;
+  @apply mt-6 md:mt-10 inline-block md:text-25 text-14 px-4 md:px-10 py-3 md:py-4 ;
 }
 .field-input input[type="text"]::placeholder{
   @apply text-white;
@@ -106,11 +114,10 @@ body{
 .yellow-btn input{
  @apply w-full px-1 py-2 uppercase;
 } 
-/*===== mithu =======*/
 
 /* ========= Footer ============= */
 .social_icons li a{
-  @apply px-2 hover:text-wTitle;
+  @apply px-1 hover:text-wTitle;
 }
 .footerWidget + .footerWidget {
   @apply lg:mt-0 mt-6;
@@ -136,42 +143,26 @@ body{
   @apply flex items-center justify-center text-transparent rounded-full	border-3 border-white	opacity-100	;		
 }
 .main-slider-wrapper .slick-dots li.slick-active button:before{
-  @apply border-5	border-primary text-transparent bg-black opacity-100	;
+  @apply border-5	border-primary text-transparent bg-black opacity-100;
 }
 .slide_buttons_Wrapper ul{
   @apply hidden md:flex;
 }
+ .why-choose.w-full {
+ @apply before:content-[''] before:absolute before:top-50pr before:translate-y-2/4 before:-left-106px before:bg-yellocircle before:bg-cover before:h-76 before:w-76;
+} 
 
-/* ankit css end */
-
-/*===== mithu =======*/
-.why-choose.w-full::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: -106px;
-  background-image: url('/src/Images/yellocircle.png');
-  background-size: cover;
-  height: 76px;
-  width: 76px;
-}
-/*=== Naveen ====*/
 .accept-btn input:checked ~ .checkmark {
   background-color: none;
 }
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
+.checkmark {
+  @apply after:content-[''] after:absolute after:hidden;
 }
 .accept-btn input:checked ~ .checkmark:after {
   display: block;
 }
-
-/* Style the checkmark/indicator */
 .accept-btn .checkmark:after {
-  left: 6px;
+left: 6px;
 top: 2px;
 width: 6px;
 height: 11px;
@@ -180,4 +171,4 @@ height: 11px;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-}  
+}

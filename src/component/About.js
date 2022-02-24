@@ -5,9 +5,10 @@ import about2 from '../Images/blockchain.png'
 export default function About(){
     return(
         <>
-            <div className='visionBox bg-none lg:bg-aboutBg pt-1 pb-16 md:pb-32 bg-cover bg-no-repeat'>
-                <div className='max-w-1400 mx-auto text-white px-4 lg:text-left text-center'>
-                    <div class="flex flex-wrap items-end -mx-4 flex-col-reverse lg:flex-row">
+            <div className='visionBox bg-none lg:bg-aboutBg pt-1 pb-16 md:pb-18 bg-cover bg-no-repeat relative'>
+            <div id='About' className='absolute top-15'></div> 
+                <div className='mx-auto text-white px-4 lg:text-left text-center'>
+                    <div class="flex flex-wrap items-start -mx-4 flex-col-reverse lg:flex-row">
                         <div className="cols-2 w-full lg:w-3/5 px-4">
                             <Image imageName={about} alt={about}></Image>
                             <a href="" className='btn-primary inline-block mt-6 lg:hidden'>Get Started!</a>

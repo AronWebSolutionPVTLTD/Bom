@@ -1,38 +1,56 @@
 import React from "react";
+import { useEffect, useState } from "react";
 import Image from './Image'
 import wallet from '../Images/wallet.png'
+
+const targetTime = new Date("2022-04-01").getTime();
 export default function TokenSale(){
+  const [currentTime, setCurrentTime] = useState(Date.now());
+  const timeBetween = targetTime - currentTime;
+  const seconds = Math.floor((timeBetween / 1000) % 60);
+  const minutes = Math.floor((timeBetween / 1000 / 60) % 60);
+  const hours = Math.floor((timeBetween / (1000 * 60 * 60)) % 24);
+  const days = Math.floor(timeBetween / (1000 * 60 * 60 * 24));
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentTime(Date.now());
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
 	return(
 		<>
-		<div className="token_sale pt-16 pb-24  px-4">
-		<div className='container p-16 flex flex-wrap mx-auto max-w-1400 items-center bg-tokenBg border-4 border-tokenBorder rounded-xl'>
-         <div className="sale-image w-2/5">
-		 <Image className="w-full pr-10" imageName={wallet} alt={wallet}></Image> 
+		
+		<div id="Tokenmics" className="token_sale pt-16 pb-24  px-4">
+		<div className='container px-6 md:px-16 md:py-16 py-8  flex flex-wrap mx-auto max-w-1400 items-center bg-tokenBg border-4 border-tokenBorder rounded-xl'>
+         <div className="sale-image w-full md:w-2/5">
+		 <Image className="w-full mb-6 md:mb-0 md:pr-10 max-w-95 mx-auto block md:max-w-full" imageName={wallet} alt={wallet}></Image> 
 		 </div>
-		 <div className="sale-metar w-3/5 flex flex-wrap justify-center">
+		 <div className="sale-metar w-full md:w-2/4 flex flex-wrap justify-center">
 			 <h3 className="text-40 font-bold font-sansation m-0 pb-1 pt-0">Token Sale Ends In</h3>
 			<div className="timer w-full grid grid-cols-4 gap-5">
 				<div class="hours text-center py-6">
-				<div class="hours-box bg-blMenu text-white text-32 font-bold font text-center h-24 flex items-center justify-center">
-					<span>00</span>
+				<div class="hours-box bg-blMenu text-white text-20 md:text-32 font-bold font text-center h-24 flex items-center justify-center max-w-140 h-110px">
+					<span>{days}</span>
 					</div>
 					<h5 className="text-16 pt-4 uppercase">days</h5>
 				</div>
 				<div class="hours text-center py-6">
-				<div class="hours-box bg-blMenu text-white text-32 font-bold font text-center h-24 flex items-center justify-center">
-					<span>00</span>
+				<div class="hours-box bg-blMenu text-white text-32 font-bold font text-center h-24 flex items-center justify-center max-w-140 h-110px">
+					<span>{hours}</span>
 					</div>
 					<h5 className="text-16 pt-4 uppercase">hours</h5>
 				</div>
 				<div class="hours text-center py-6">
-				<div class="hours-box bg-blMenu text-white text-32 font-bold font text-center h-24 flex items-center justify-center">
-					<span>00</span>
+				<div class="hours-box bg-blMenu text-white text-32 font-bold font text-center h-24 flex items-center justify-center max-w-140 h-110px">
+					<span>{minutes}</span>
 					</div>
 					<h5 className="text-16 pt-4 uppercase">minutes</h5>
 				</div>
 				<div class="hours text-center py-6">
-				<div class="hours-box bg-blMenu text-white text-32 font-bold font text-center h-24 flex items-center justify-center">
-					<span>00</span>
+				<div class="hours-box bg-blMenu text-white text-32 font-bold font text-center h-24 flex items-center justify-center  max-w-140 h-110px">
+					<span>{seconds}</span>
 					</div>
 					<h5 className="text-16 pt-4 uppercase">seconds</h5>
 				</div>

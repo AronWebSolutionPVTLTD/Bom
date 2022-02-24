@@ -1,9 +1,8 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import './App.css';
 import Header from './component/Header';
 import Vision from './component/Vision';
 import UniqueNFT from './component/UniqueNFT';
-import BuyBom from './component/BuyBom';
 import About from './component/About';
 import Features from './component/Features';
 import FooterBox from './component/Footer';
@@ -19,19 +18,16 @@ import Contact from './component/Contact';
 import Timeline from './component/Timeline';
 import OurTeam from './component/OurTeam';
 
-// import PrivateSales from './component/PrivateSales';
 
-// >>>>>>> main
 function App() {
   return (
     <>
-    <div className="App " >
-      {/* <Header></Header> */}
+    <div className="App" >
+      <Header></Header>
       <HomeSlider></HomeSlider>
-      <Vision></Vision>
+      <Vision visionId="vision"></Vision>
       <About></About>
       <UniqueNFT></UniqueNFT>
-      
       <Features></Features>
       <Pricing></Pricing>
       <PrivateSales></PrivateSales> 

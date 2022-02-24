@@ -5,13 +5,13 @@ export default function Pricing(){
       
     return(
          <>
-            <div className='contact-section bg-contactbg py-20 hidden md:block'>
+            <div id="Contact" className='contact-section bg-contactbg py-24 hidden md:block  border-t-2 border-b-2 border-white/20 mt-16 mb-24'>
                 <div class="max-w-800 mx-auto text-center mb-16">
                     <h4 className='font-sansation uppercase text-wTitle text-25 mb-4'>CONTACTS</h4>    
                     <h2 className="heading-primary">Contact informations</h2>
                     <p class="sub-heading">Investigationes demonstraverunt lectores legere elementum pulvinar etiam non quam lacus suspendisse risus nec feugiat in laoreet sit amet cursus.</p>
                 </div>
-                <div class="max-w-980 mx-auto mb-16">
+                <div class="max-w-980 mx-auto">
                     <form>
                         <div className='grid-cols-2 grid gap-4'>
                             <div className='field-input'>
@@ -38,7 +38,7 @@ export default function Pricing(){
                                 <textarea className='w-full text-20 p-2 h-198 font-poppins bg-white/20 text-white rounded-md' id="message" name="message" placeholder='Message |' ></textarea>  
                             </div> 
                             <div className='field-input'>
-                            <label className='accept-btn font-poppins text-20 relative mt-3 mb-8 block' htmlfor="accept">
+                            <label className='accept-btn font-poppins text-20 relative mt-3 mb-8 block' htmlFor="accept">
                                 <input className='opacity-0 mr-3 w-20 h-20 relative top-0.5' type="checkbox" id="accept" name="accept" value="accept" />
                                 <span className='checkmark w-20 h-20 absolute top-0.5 left-0 border border-white rounded'></span>
                                I accept the <a className='text-yelloText' href="#">Terms of Use</a> & <a className='text-yelloText' href="#">Privacy</a>.</label>
